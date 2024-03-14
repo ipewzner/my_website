@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&Display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: calc(100vh - 75px);
+    margin-top: 75px;
+    display: fixed;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: #d5c5c5;
+    text-shadow: 1px 1px 4px #000;
+}
+
+
+
+.start_page {
+    background: linear-gradient(330deg, #c4b3b3 50%, rgb(249, 249, 249) 70%, rgb(173, 214, 224) 80%);
+}
+
+.form_page {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1)50%, rgba(0, 0, 0, 1)50%);
+}
+
+
+.about_page {
+    background: linear-gradient(60deg, #f9cc5e 17%, rgb(255 247 182) 25%, rgb(255 247 182) 50%, #f9cc5e 80%);
+}
+
+.contact_page {
+    background: linear-gradient(30deg, #010101 50%, rgb(20 24 25) 70%, rgb(44 48 49) 80%);
+}
+
+
+
+
+/* Style the scrollbar for larger screens */
+@media only screen and (min-width: 701px) {
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1e1e1e;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
