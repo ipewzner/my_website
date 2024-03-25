@@ -46,17 +46,16 @@
     background-color: #817bed;
 }
 
-
-ul {
+#menuList {
     display: flex;
     list-style: none;
 }
 
-ul li {
+#menuList  li {
     margin-left: 20px;
 }
 
-ul li a {
+#menuList  li a {
 
     text-decoration: none;
     color: #fff;
@@ -67,7 +66,7 @@ ul li a {
 
 }
 
-ul li a:hover {
+#menuList  li a:hover {
     color: #dcc87d;
 }
 
@@ -75,7 +74,7 @@ ul li a:hover {
 
 @media only screen and (max-width: 700px) {
 
-    ul {
+    #menuList  {
         background: black;
         position: absolute;
         top: 75px;
@@ -86,7 +85,7 @@ ul li a:hover {
 
     }
 
-    ul li {
+    #menuList  li {
         display: block;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -94,7 +93,7 @@ ul li a:hover {
         /* Center the text in the list */
     }
 
-    ul li a {
+    #menuList  li a {
         color: #fff;
         margin-inline-end: 5px;
         margin-inline-start: 5px;
@@ -129,8 +128,6 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
-
-
 
 #close-btn {
     cursor: pointer;

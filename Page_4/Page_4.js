@@ -9,6 +9,7 @@ class Page_4 extends HTMLElement {
         ];
         
         let contactButtonsHTML = '<ul class="contact-list">';
+        
         for (const contact of contacts) {
             contactButtonsHTML += `
                 <li>
@@ -20,9 +21,9 @@ class Page_4 extends HTMLElement {
         contactButtonsHTML += '</ul>';
 
         this.innerHTML = `
-            <section lang="heb" class="about_page2" id="contact_page">
+            <section lang="heb" class="about-page" id="contact_page">
                 <h3>Contact Me:</h3>
-                <div class="Page_2_container">
+                <div class="Page-4-container">
                     ${contactButtonsHTML}
                 </div>
             </section>`;

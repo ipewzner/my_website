@@ -1,18 +1,25 @@
-/* Custom CSS styles */
-.contact {
-    text-align: center;
-    padding: 50px 0;
+
+.Page-4-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
 }
 
-.contact-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-list li {
+    display: block;
+    margin-bottom: 10px;
 }
 
 .contact-button {
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -20,6 +27,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
+    margin-bottom: 10px; /* Add margin between buttons */
 }
 
 .contact-button:hover {
@@ -28,7 +36,6 @@
 
 .contact-icon {
     width: 24px;
-    /* Adjust the width as needed */
     height: auto;
-    /* Maintain aspect ratio */
 }
+
