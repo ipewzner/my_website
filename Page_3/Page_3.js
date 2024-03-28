@@ -6,12 +6,12 @@ class Page_3 extends HTMLElement {
         ];
   
         const iconsHTML = icons.map(icon => `
-        <div class="Page_2_icon"><img src="${icon.src}" alt="${icon.alt}"></div>`).join('');
+        <div class="Page_3_icon"><img src="${icon.src}" alt="${icon.alt}"></div>`).join('');
   
         this.innerHTML = `
-        <section lang="heb" class="about_page2" id="about_page2">
-        <h3> in my cestumers: </h3>
-        <div class="Page_2_container">
+        <section lang="heb" class="cestumers-page" id="cestumers_page">
+        <h3 data-key="page_3_h3" class="page-3-h3"> in my cestumers: </h3>
+        <div class="Page-3-container">
                 ${iconsHTML}
             </div>
         </section>`;

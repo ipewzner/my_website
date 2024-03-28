@@ -6,3 +6,28 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+/*
+.start_page {
+    
+   
+    justify-content: flex-start;
+    align-items: center;
+}
+*/
+.page_1_h3 {
+    padding-top: 10%;
+    margin-inline-start: 10%;
+    font-size: 60px;
+}
+
+.page_1_h4 {
+    margin-inline-start: 10%;
+    font-size: 35px;
+}
+
+.page_1_p {
+    /*margin-top: 10%;*/
+    margin-inline-start: 10%;
+    font-size: 20px;
+}

@@ -1,5 +1,7 @@
 class Page_4 extends HTMLElement {
+    
     connectedCallback() {
+    
         const contacts = [
             { name: "Email", image: "./images/Gmail.svg", link: "mailto:ipewzner@gmail.com" },
             { name: "WhatsApp", image: "./images/whatsapp.png", link: "https://wa.me/+972548410620" },
@@ -14,7 +16,8 @@ class Page_4 extends HTMLElement {
             contactButtonsHTML += `
                 <li>
                     <a href="${contact.link}" target="_blank" rel="noopener noreferrer" class="contact-button">
-                      <img src="${contact.image}" alt="${contact.name}" class="contact-icon"> ${contact.name}
+                      <img src="${contact.image}" alt="${contact.name}" class="contact-icon"> 
+                      <p>${contact.name}</p>
                     </a>
                 </li>`;
         }
@@ -22,7 +25,7 @@ class Page_4 extends HTMLElement {
 
         this.innerHTML = `
             <section lang="heb" class="about-page" id="contact_page">
-                <h3>Contact Me:</h3>
+                <h3 data-key="page_4_h3" class="page_4_h3">Contact Me:</h3>
                 <div class="Page-4-container">
                     ${contactButtonsHTML}
                 </div>

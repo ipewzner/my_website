@@ -1,16 +1,26 @@
-
 .Page-4-container {
+    /*
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin-inline-start: 20%;
     max-width: 80%;
+    align-items: flex-end;
+    */
+    justify-content: center;
+
 }
 
 .contact-list {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    display: flex;
+    /* Use flexbox */
+
+    justify-content: center;
+    /* Center items horizontally */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
 }
 
 .contact-list li {
@@ -19,23 +29,28 @@
 }
 
 .contact-button {
+    margin:  5px;
     display: block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #dfe8f2;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
-    margin-bottom: 10px; /* Add margin between buttons */
 }
 
 .contact-button:hover {
-    background-color: #0056b3;
+    background-color: #c7dcf3;
 }
 
 .contact-icon {
-    width: 24px;
-    height: auto;
+    width: 40px;
+    height: 40px;
 }
 
+.page_4_h3 {
+    padding-top: 5%;
+    margin-inline-start: 10%;
+    font-size: 50px;
+}

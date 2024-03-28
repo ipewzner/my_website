@@ -8,19 +8,19 @@ class Navbar extends HTMLElement {
         <ul id="menuList">
             <li><a data-key="start_page_name" href="#start_page">ראשי</a></li>
             <li><a data-key="about_page_name" href="#about_page">אודתינו</a></li>
-            <li><a data-key="about_page_name2" href="#about_page2">אודת00ינו2</a></li>
+            <li><a data-key="cestumers_page_name" href="#cestumers_page">לקוחות</a></li>
             <li><a data-key="contact_page_name"  href="#contact_page">יצירת קשר</a></li>-->
         </ul>
     </div>
      
     <div class="language-switch">
         <button onclick="toggleLanguage()" class="lang-button" id="lang-button">
-            <img src="https://cdn.countryflags.com/thumbs/israel/flag-400.png" alt="heb" id="flag">
+            <img class="lang-button-img" src="https://cdn.countryflags.com/thumbs/israel/flag-400.png" alt="heb" id="flag">
         </button>
     </div>
 
     <div class="icon" href="index.html">
-        <img src="images/logo.jpeg" alt="IP" />
+        <img src="images/logo.jpeg" alt="IP"  />
     </div>
     
 </nav>
