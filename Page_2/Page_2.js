@@ -15,7 +15,7 @@ class Page_2 extends HTMLElement {
         ];
 
         const iconsHTML = icons.map(icon => `
-            <div class="Page_2_icon"><img src="${icon.src}" alt="${icon.alt}"></div>`).join('');
+            <div class="Page_2_icon"><img class="page-2-img" src="${icon.src}" alt="${icon.alt}"></div>`).join('');
       
             this.innerHTML = `
             <section lang="heb" class="about_page" id="about_page">

@@ -144,9 +144,15 @@
     }
 }
 
-img {
+.lang-button-img {
     max-height: 100%;
     max-width: 100%;
+}
+
+h6 {
+font-size: 40px;
+color: blue;
+text-shadow: -1px -1px 0 gold;
 }
 
 #close-btn {

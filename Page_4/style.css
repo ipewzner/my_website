@@ -23,13 +23,22 @@
     /* Allow items to wrap to the next line */
 }
 
+.Page-4-container {
+    justify-content: center;
+    align-items: center;
+    /*display: flex;
+    height: inherit;*/
+    
+}
+
 .contact-list li {
     display: block;
     margin-bottom: 10px;
+    width: 150px;
 }
 
 .contact-button {
-    margin:  5px;
+    margin: 5px;
     display: block;
     padding: 10px 20px;
     background-color: #dfe8f2;
@@ -51,6 +60,8 @@
 
 .page_4_h3 {
     padding-top: 5%;
+    padding-bottom:15% ;
     margin-inline-start: 10%;
     font-size: 50px;
+
 }

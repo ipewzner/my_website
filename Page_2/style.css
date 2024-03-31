@@ -11,6 +11,10 @@ body {
 }
 */
 
+.page-2-img {
+    max-height: 100%;
+    max-width: 100%;
+}
 
 .about_page {  
     justify-content: center;
