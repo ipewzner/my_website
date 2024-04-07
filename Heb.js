@@ -2,13 +2,13 @@ let heb = {
     "strings": {
         "title": "IPewzner",
         "start_page_name": "ראשי",
-        "about_page_name": "אודתינו",
+        "about_page_name": "אודות",
         "cestumers_page_name": "לקוחות",
         "contact_page_name": "יצירת קשר",
 
         "page_1_h3": "ישעיהו פבזנר",
         "page_1_h4": "מפתח מערכות משובצות מחשב",
-        "page_1_p": "פרילנס ומייקר",
+        "page_1_p": `עוסק מורשה`,
 
         "page_2_h3": "פיתוח מערכות משובצות מחשב",
         "page_2_h4": "מפתח:",
@@ -29,7 +29,7 @@ let en = {
         
         "page_1_h3": "Ishayau Pewzner",
         "page_1_h4": "Embdded devoloper",
-        "page_1_p": "I am freelance, devoloping Embeded system and Web base GUI, also i'm a Miker ",
+        "page_1_p": "licensed dealer",
         
         "page_2_h3": "Developing Embedd system",
         "page_2_h4": "Developing:",

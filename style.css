@@ -31,20 +31,19 @@ h1 {
 
 
 .start_page {
-    background: linear-gradient(330deg, #c4b3b3 50%, rgb(249, 249, 249) 70%, rgb(173, 214, 224) 80%);
+    background:  rgb(138, 136, 248);
 }
-
-.form_page {
-    background: linear-gradient(to top, rgba(0, 0, 0, 1)50%, rgba(0, 0, 0, 1)50%);
-}
-
 
 .about_page {
-    background: linear-gradient(60deg, #f9cc5e 17%, rgb(255 247 182) 25%, rgb(255 247 182) 50%, #f9cc5e 80%);
+    background:  rgb(220, 220, 220);
+}
+
+.cestumers-page {
+    background:  rgb(138, 136, 248);
 }
 
 .contact_page {
-    background: linear-gradient(30deg, #010101 50%, rgb(20 24 25) 70%, rgb(44 48 49) 80%);
+    background:  rgb(220, 220, 220);
 }
 
 

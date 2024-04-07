@@ -15,7 +15,7 @@ class Navbar extends HTMLElement {
      
     <div class="language-switch">
         <button onclick="toggleLanguage()" class="lang-button" id="lang-button">
-            <img class="lang-button-img" src="https://cdn.countryflags.com/thumbs/israel/flag-400.png" alt="heb" id="flag">
+            <img class="lang-button-img" src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" alt="heb" id="flag">
         </button>
     </div>
 
@@ -47,7 +47,7 @@ function toggleLanguage() {
     document.documentElement.lang = newLang;
     
     // Update the flag image and alt attribute
-    flag.src = newLang === 'heb' ? israelFlag : usFlag ;
+    flag.src = newLang === 'heb' ? usFlag : israelFlag ;
     flag.alt = newLang;
     
     // Update the button text

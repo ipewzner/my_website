@@ -7,7 +7,8 @@ class Page_4 extends HTMLElement {
             { name: "WhatsApp", image: "./images/whatsapp.png", link: "https://wa.me/+972548410620" },
             { name: "Telegram", image: "./images/telegram.png", link: "https://t.me/ipewzner" },
             { name: "LinkedIn", image: "./images/linkedin.png", link: "https://www.linkedin.com/in/ipewzner/" },
-            { name: "GitHub", image: "./images/github.png", link: "https://github.com/ipewzner" }
+            { name: "GitHub", image: "./images/github.png", link: "https://github.com/ipewzner" },
+            { name: "Phone", image: "./images/phone_call.png", link: "tel:+972548410620" } // Add phone number here
         ];
         
         let contactButtonsHTML = '<ul class="contact-list">';
@@ -24,7 +25,7 @@ class Page_4 extends HTMLElement {
         contactButtonsHTML += '</ul>';
 
         this.innerHTML = `
-            <section lang="heb" class="about-page" id="contact_page">
+            <section lang="heb" class="contact_page" id="contact_page">
                 <h3 data-key="page_4_h3" class="page_4_h3">Contact Me:</h3>
                 <div class="Page-4-container">
                     ${contactButtonsHTML}
