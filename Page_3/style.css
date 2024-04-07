@@ -1,31 +1,66 @@
-.cestumers-page {
+.Page-3-container {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline-start: 20%;
+    max-width: 80%;
+    align-items: flex-end;
+    */
+    justify-content: center;
+
+}
+
+.cestumer-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center items horizontally */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+}
+
+.Page-3-container {
     justify-content: center;
     align-items: center;
+    /*display: flex;
+    height: inherit;*/
+}
+
+.cestumer-list li {
+    display: block;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.cestumer-button {
+    margin: 5px;
+    display: block;
+    padding: 10px 0px;
+    background-color: #dfe8f2;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cestumer-button:hover {
+    background-color: #c7dcf3;
+}
+
+.cestumer-icon {
+    width: fit;
+    max-width: 130px;
+    height: 60px;
     
 }
 
-.page-3-h3 {
+.page_3_h3 {
     padding-top: 5%;
     padding-bottom:15% ;
     margin-inline-start: 10%;
     font-size: 50px;
-}
-
-.Page-3-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.Page_3_icon {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

@@ -10,9 +10,8 @@ let heb = {
         "page_1_h4": "מפתח מערכות משובצות מחשב",
         "page_1_p": "פרילנס ומייקר",
 
-        "page_2_h3": "Ishayau Pew55zner",
-        "page_2_h4": "Embd66ded devoloper",
-        "page_2_p": "I am freelance, devoloping Embeded system and Web base GUI, also i'm a Miker ",
+        "page_2_h3": "פיתוח מערכות משובצות מחשב",
+        "page_2_h4": "מפתח:",
         
         "page_3_h3":"לקוחות",
         
@@ -32,11 +31,12 @@ let en = {
         "page_1_h4": "Embdded devoloper",
         "page_1_p": "I am freelance, devoloping Embeded system and Web base GUI, also i'm a Miker ",
         
-        "page_2_h3": "Ishayau Pew55zner",
-        "page_2_h4": "Embd66ded devoloper",
+        "page_2_h3": "Developing Embedd system",
+        "page_2_h4": "Developing:",
+
         "page_2_p": "I am freelance, devoloping Embeded system and Web base GUI, also i'm a Miker ",
         
-        "page_3_h3":"in my cestumers:",
+        "page_3_h3":"Cestumers:",
         
         "page_4_h3": "Contact Me:"
         
