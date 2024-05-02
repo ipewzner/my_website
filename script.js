@@ -1,10 +1,17 @@
 
 
 function togglemenu() {
-    if (menuList.style.maxWidth == "0px") { // Change from "maxHeight" to "maxWidth"
-        menuList.style.maxWidth = "200px"; // Change from "maxHeight" to "maxWidth"
-    } else {
+    const currentLang = document.documentElement.lang;
+    
+    if( currentLang === 'heb'){
+        menuList.style.right=0;
+    }
+    else {menuList.style.left=0;}
+    
+    if (menuList.style.maxWidth == "200px") { // Change from "maxHeight" to "maxWidth"
         menuList.style.maxWidth = "0px"; // Change from "maxHeight" to "maxWidth"
+    } else {
+        menuList.style.maxWidth = "200px"; // Change from "maxHeight" to "maxWidth"
     }
 }
 

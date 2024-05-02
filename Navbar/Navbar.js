@@ -60,5 +60,11 @@ function toggleLanguage() {
     
     Update_lang()
     
+    
+    if( currentLang === 'heb'){
+        menuList.style.right=0;
+    }
+    else {menuList.style.left=0;}
+
 }
 

@@ -98,9 +98,9 @@
         background: black;
         position: absolute;
         top: 75px;
-        right: 0;
         z-index: 2;
         flex-direction: column;
+        max-width : 0px;
         /* Change to column layout */
 
     }
