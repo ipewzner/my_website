@@ -27,9 +27,9 @@ let en = {
         "cestumers_page_name": "Customer",
         "contact_page_name": "Contact",
         
-        "page_1_h3": "",//"When Embded met Web",
-        "page_1_h4": "Greetings",
-        "page_1_p": "My name is Ishayahu Pewzner, and I hold a BSc. in Computer Science from JCT. I have experience in both embedded and web development and would be delighted to collaborate with you in either or even both of these areas.In embedded development, I have extensive experience with Linux, Raspberry Pi, Arduino, ESP32, STM32, and more. For web development, I utilize JavaScript and React to create dynamic front-end experiences, and Node.js and MongoDB for efficient database management.Furthermore, I specialize in combining the worlds of embedded systems and web technologies to create innovative and efficient solutions. I have the skills and knowledge to turn your ideas into reality. Let/\*s work together to create something extraordinary! Please feel free to contact me here.",
+        "page_1_h3": "Ishayau Pewzner",
+        "page_1_h4": "Embdded devoloper",
+        "page_1_p": "licensed dealer",
         
         "page_2_h3": "Developing Embedd system",
         "page_2_h4": "Developing:",

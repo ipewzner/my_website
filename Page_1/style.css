@@ -29,5 +29,6 @@
 .page_1_p {
     /*margin-top: 10%;*/
     margin-inline-start: 10%;
-    font-size: 20px;
+    font-size: 15px;
+    padding-right:10px ;
 }

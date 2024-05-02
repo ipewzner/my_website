@@ -155,6 +155,11 @@ color: blue;
 text-shadow: -1px -1px 0 rgb(255, 255, 255);
 }
 
+h5 {
+font-size: 20px;
+color: rgb(137, 137, 249);
+}
+
 #close-btn {
     cursor: pointer;
     position: absolute;

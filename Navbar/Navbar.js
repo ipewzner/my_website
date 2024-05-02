@@ -20,7 +20,7 @@ class Navbar extends HTMLElement {
     </div>
 
     <div class="icon" href="index.html">
-    ${true?`<h6>IP</h6>`:`<img src="images/logo.jpeg" alt="IP"  />`}
+    ${true?`<h5>IP Tec</h5>`:`<img src="images/logo.jpeg" alt="IP"  />`}
     </div>
     
 </nav>
