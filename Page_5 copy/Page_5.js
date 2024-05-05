@@ -1,5 +1,6 @@
-class Page_2 extends HTMLElement {
+class Page_5 extends HTMLElement {
     connectedCallback() {
+     
         const icons = [
             { src: "./images/c.png", alt: "c" },
             { src: "./images/cpp.png", alt: "cpp" },
@@ -15,11 +16,11 @@ class Page_2 extends HTMLElement {
         ];
 
         const iconsHTML = icons.map(icon => `
-            <div class="Page_2_icon"><img class="page-2-img" src="${icon.src}" alt="${icon.alt}"></div>`).join('');
+            <div class="Page_5_icon"><img class="page-5-img" src="${icon.src}" alt="${icon.alt}"></div>`).join('');
       
             this.innerHTML = `
-            <section lang="heb" class="about_page" id="about_page">
-                <div class="Page_2_container">
+            <section lang="heb" class="tec_page" id="tec_page">
+                <div class="Page_5_container">
                     ${iconsHTML}
                 </div>
             </section>`;
@@ -27,6 +28,6 @@ class Page_2 extends HTMLElement {
     }
 }
 
-customElements.define('app-page_2', Page_2);
+customElements.define('app-page_5', Page_5);
 
 

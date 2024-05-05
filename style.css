@@ -28,25 +28,34 @@ h1 {
     text-shadow: 1px 1px 4px #000;
 }
 
+h2 {
+    margin-inline-start: 10%;
+    padding-top: 7%;
+    /*padding-bottom: 10%;*/
+    font-size: 30px;
+    margin-bottom: 2%;
 
+}
 
-.start_page {
+.start-page {
     background:  rgb(255, 255, 255);
 }
 
-.about_page {
-    background:  rgb(220, 220, 220);
+.about-page {
+    background:  #6e7cab;
 }
 
 .cestumers-page {
-    background:  rgb(138, 136, 248);
-}
-
-.contact_page {
     background:  rgb(220, 220, 220);
 }
 
+.contact-page {
+    background:  rgb(220, 220, 220);
+}
 
+.tec-page {
+    background:  #6e7cab;
+}
 
 
 /* Style the scrollbar for larger screens */

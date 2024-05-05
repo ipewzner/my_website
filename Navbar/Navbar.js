@@ -7,9 +7,10 @@ class Navbar extends HTMLElement {
     <div class="menu">
         <ul id="menuList">
             <li><a data-key="start_page_name" href="#start_page">ראשי</a></li>
-            <li><a data-key="about_page_name" href="#about_page">אודתינו</a></li>
+           <!-- <li><a data-key="about_page_name" href="#about_page">אודתינו</a></li>-->
             <li><a data-key="cestumers_page_name" href="#cestumers_page">לקוחות</a></li>
-            <li><a data-key="contact_page_name"  href="#contact_page">יצירת קשר</a></li>-->
+            <li><a data-key="tec_page_name"  href="#tec_page">טכנולוגיות</a></li>
+            <li><a data-key="contact_page_name"  href="#contact_page">יצירת קשר</a></li>
         </ul>
     </div>
      

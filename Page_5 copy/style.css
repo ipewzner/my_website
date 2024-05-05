@@ -11,26 +11,26 @@ body {
 }
 */
 
-.page-2-img {
+.page-5-img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.about_page {  
+.tec_page {  
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.Page_2_container {
+.Page_5_container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     max-width: 80%;
+    justify-content: center;
 }
 
-.Page_2_icon {
+.Page_5_icon {
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -40,4 +40,16 @@ body {
     border-radius: 50%;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Media query for smartphones */
+@media only screen and (max-width: 600px) {
+    .Page_5_container {
+        max-width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .Page_5_icon {
+        width: 80px; /* Adjust the icon size for smaller screens */
+        height: 80px;
+    }
 }

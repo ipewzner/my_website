@@ -1,0 +1,81 @@
+
+.tec-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+}
+
+.tec-page{  
+    display: flex;
+    flex-direction: column; /* Make children stack vertically */
+    justify-content: center; /* Center horizontally */
+    align-content: flex;
+}
+
+.Page-5-container {
+    justify-content: center;
+    align-items: center;    
+   
+    flex-grow: 1; /* Take up remaining vertical space */
+    display: flex;
+}
+
+.tec-list li {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.page-5-img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.page-5-icon {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Media query for smartphones */
+@media only screen and (max-width: 670px) {
+    .Page_5_container {
+        max-width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .tec-list li {
+        
+        width: 100px;
+        height: 100px;
+
+    }
+    .page-5-img {
+        width: 60px; /* Adjust the icon size for smaller screens */
+        height: 60px;
+    }
+
+    .page-5-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0px;
+
+    }
+}

@@ -23,7 +23,7 @@ class Page_3 extends HTMLElement {
     
             this.innerHTML = `
             <section lang="heb" class="cestumers-page" id="cestumers_page">
-                    <h3 data-key="page_3_h3" class="page_3_h3">Cestumer:</h3>
+                    <h2 data-key="page_3_h2" class="page_3_h2">Cestumer:</h2>
                     <div class="Page-3-container">
                         ${cestumerButtonsHTML}
                     </div>

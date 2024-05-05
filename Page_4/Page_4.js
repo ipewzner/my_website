@@ -25,8 +25,8 @@ class Page_4 extends HTMLElement {
         contactButtonsHTML += '</ul>';
 
         this.innerHTML = `
-            <section lang="heb" class="contact_page" id="contact_page">
-                <h3 data-key="page_4_h3" class="page_4_h3">Contact Me:</h3>
+            <section lang="heb" class="contact-page" id="contact_page">
+                <h2 data-key="page_4_h2" class="page_4_h2">Contact Me:</h2>
                 <div class="Page-4-container">
                     ${contactButtonsHTML}
                 </div>
