@@ -3,17 +3,17 @@ class Page_5 extends HTMLElement {
     connectedCallback() {
     
         const icons = [
-            { src: "./images/c.png", alt: "c" },
-            { src: "./images/cpp.png", alt: "cpp" },
-            { src: "./images/linux.png", alt: "linux" },
-            { src: "./images/mongodb.png", alt: "mongodb" },
-            { src: "./images/nodeJs.png", alt: "nodeJs" },
-            { src: "./images/python.png", alt: "python" },
-            { src: "./images/react.png", alt: "react" },
-            { src: "./images/rpi.png", alt: "rpi" },
-            { src: "./images/stm32.png", alt: "stm32" },
-            { src: "./images/freeRTOS.jpg", alt: "freeRTOS" },
-            { src: "./images/ros2.png", alt: "ros2" }
+            { src: "./images/c.png", alt: "C" },
+            { src: "./images/cpp.png", alt: "CPP" },
+            { src: "./images/linux.png", alt: "Linux" },
+            { src: "./images/mongodb.png", alt: "MongoDB" },
+            { src: "./images/nodeJs.png", alt: "NodeJS" },
+            { src: "./images/python.png", alt: "Python" },
+            { src: "./images/react.png", alt: "React" },
+            { src: "./images/rpi.png", alt: "RPI" },
+            { src: "./images/stm32.png", alt: "STM32" },
+            { src: "./images/freeRTOS.jpg", alt: "FreeRTOS" },
+            { src: "./images/ros2.png", alt: "Ros2" }
         ];
         
         let iconsHTML = '<ul class="tec-list">';
@@ -23,6 +23,7 @@ class Page_5 extends HTMLElement {
                 <li>
                     <div class="page-5-icon">
                         <img class="page-5-img" src="${icon.src}" alt="${icon.alt}">
+                        <p class="page-5-p">${icon.alt}</p>
                     </div>
                 </li>`;
         }
