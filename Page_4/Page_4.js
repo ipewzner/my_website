@@ -18,7 +18,7 @@ class Page_4 extends HTMLElement {
                 <li>
                     <a href="${contact.link}" target="_blank" rel="noopener noreferrer" class="contact-button">
                       <img src="${contact.image}" alt="${contact.name}" class="contact-icon"> 
-                      <p>${contact.name}</p>
+                      <p class="page-4-p-button">${contact.name}</p>
                     </a>
                 </li>`;
         }
@@ -27,6 +27,11 @@ class Page_4 extends HTMLElement {
         this.innerHTML = `
             <section lang="heb" class="contact-page" id="contact_page">
                 <h2 data-key="page_4_h2" class="page_4_h2">Contact Me:</h2>
+               
+                <p data-key="page_4_p_name" class="page-4-p">Ishayahu Pewzner</p>
+                <p data-key="page_4_p_phone" class="page-4-p">972-54-8410620</p>
+                <p data-key="page_4_p_email" class="page-4-p">ipewzner@gmail.com</p>
+
                 <div class="Page-4-container">
                     ${contactButtonsHTML}
                 </div>

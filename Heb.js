@@ -8,7 +8,8 @@ let heb = {
         "tec_page_name": "טכנולוגיות",
 
         "page_1_h2": "שלום",
-        "page_1_p": 'שמי <b>ישעיהו פבנזר</b>, יש לי תואר ראשון במדעי המחשב מ "המרכז האקדמי לב".',
+        "page_1_p": "שמי " + "<b>ישעיהו פבנזר</b>"+", יש לי תואר ראשון במדעי המחשב מ "+"<b>המרכז האקדמי לב</b>"+".",
+        "page_1_p55": 'שמי <b>ישעיהו פבנזר</b>, יש לי תואר ראשון במדעי המחשב מ "המרכז האקדמי לב".',
         "page_1_p1": "יש לי נסיון בתחום מערכות משובצות מחשב, וגם בתחום האינטרנט, ואשמח לשתף איתכם פעולה בתחומים אלו.",
         "page_1_p2": "במערכות משובצות מחשב יש לי נסיון עם הכלים  <b>Linux, Raspberry Pi, Arduino, ESP32, STM32</b>, ועוד.",
         "page_1_p2_2": "ובפיתוח לאינטרנט עם הכלים"+" <b>JavaScript</b> "+" ו "+"<b>React</b>"+" ליצור חויית משתמש דינאמית , "+"ו "+"<b>Node.js</b>"+" ו "+"<b>MongoDB</b> "+"לניהול הנתונים.",
@@ -22,7 +23,11 @@ let heb = {
         "page_3_h2":"לקוחות:",
         
         "page_5_h2": "טכנולוגיות:",
-        "page_4_h2": "צור קשר:"
+        "page_4_h2": "צור קשר:",
+        "page_4_p_name": "ישעיהו פבזנר",
+        //"page_4_p_address": "raanana israel ",
+        "page_4_p_email": "ipewzner@gmail.com",
+        "page_4_p_phone": "054-8410620"
     },
 }
 
@@ -38,9 +43,9 @@ let en = {
         "page_1_h2": "Greetings",
         "page_1_p": "My name is <b>Ishayahu Pewzner</b>, and I hold a <b>BSc</b>. in Computer Science from <b>JCT</b>.",
         "page_1_p1": "I have experience in both embedded and web development and would be delighted to collaborate with you in either or even both of these areas.",
-        "page_1_p2": "In <b>embedded</b> development, I have extensive experience with <b>Linux, Raspberry Pi, Arduino, ESP32, STM32</b>, and more,",
-        "page_1_p2_2": "Iמ <b>web</b> development, I utilize <b>JavaScript</b> and <b>React</b> to create dynamic front-end experiences, and <b>Node.js</b> and <b>MongoDB</b> for efficient database management.Furthermore,",
-        "page_1_p3": "I specialize in combining the worlds of embedded systems and web technologies to create innovative and efficient solutions. I have the skills and knowledge to turn your ideas into reality.",
+        "page_1_p2": "In <b>embedded</b> development, I have extensive experience with <b>Linux, Raspberry Pi, Arduino, ESP32, STM32</b>, and more.",
+        "page_1_p2_2": "Iמ <b>web</b> development, I utilize <b>JavaScript</b> and <b>React</b> to create dynamic front-end experiences, and <b>Node.js</b> and <b>MongoDB</b> for efficient database management.",
+        "page_1_p3": "Furthermore, i specialize in combining the worlds of embedded systems and web technologies to create innovative and efficient solutions. I have the skills and knowledge to turn your ideas into reality.",
         "page_1_p4": `Let work together to create something extraordinary! Please feel free to contact me <b><a href="#contact_page">here</a></b>.`,
         
         "page_2_h2": "Developing Embedd system",
@@ -51,7 +56,12 @@ let en = {
         "page_3_h2":"Cestumers:",
         
         "page_5_h2": "Technologies:",
-        "page_4_h2": "Contact Me:"
+        "page_4_h2": "Contact Me:",
+        "page_4_p_name": "Ishayahu Pewzner",
+        //"page_4_p_address": "raanana israel ",
+        "page_4_p_email": "ipewzner@gmail.com",
+        "page_4_p_phone": "972-54-8410620"
+
         
     },
 }

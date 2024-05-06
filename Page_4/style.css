@@ -26,8 +26,6 @@
     /* Allow items to wrap to the next line */
 }
 
-
-
 .contact-list li {
     display: block;
     margin-bottom: 10px;
@@ -53,4 +51,29 @@
 .contact-icon {
     width: 40px;
     height: 40px;
+}
+
+.page-4-p{    
+    margin-inline-start: 11%;
+    font-size: 20px;
+}
+
+@media only screen and (max-height: 700px) {
+    .page-4-p{
+        font-size: 12px;
+    }
+
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-list li {
+        width: 120px;
+    }
+    .contact-button {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }

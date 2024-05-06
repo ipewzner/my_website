@@ -47,10 +47,14 @@
 @media only screen and (max-width: 600px) {
 
     .page_1_p {
-        margin-inline-start: 10%;
-        margin-inline-end: 10%;
         font-size: 14px;
-        padding-right:10px ;
-        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .page_1_p {
+       
+        font-size: 10px;
+       
     }
 }
