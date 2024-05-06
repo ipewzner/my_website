@@ -7,13 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*
-.page_1_h2{
-    margin-bottom: 2%;
-}
-*/
-
-
 .start-page {
     display: flex;
     flex-direction: column; /* Make children stack vertically */
@@ -25,16 +18,16 @@
     flex-grow: 1; /* Take up remaining vertical space */
     display: flex;
     flex-direction: column; /* Make children stack vertically */
-    justify-content: center;
+    justify-content:flex-start;
     align-items: flex-start;
 }
 
 .page_1_p {
     /*margin-top: 10%;*/
-    margin-inline-start: 10%;
+    margin-inline-start: 12%;
     margin-inline-end: 10%;
     font-size: 18px;
-    padding-right:10px ;
+    /*padding-right:10px ;*/
     padding-bottom: 10px;
 }
 
@@ -45,7 +38,6 @@
 
 /* Media query for smartphones */
 @media only screen and (max-width: 600px) {
-
     .page_1_p {
         font-size: 14px;
     }
@@ -53,8 +45,6 @@
 
 @media only screen and (max-height: 700px) {
     .page_1_p {
-       
         font-size: 10px;
-       
     }
 }

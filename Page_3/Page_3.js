@@ -1,7 +1,7 @@
 class Page_3 extends HTMLElement {
     connectedCallback() {
         const cestumers = [
-            { src: "./images/Prizmatix2.jpg", alt: "Prizmatix" ,link:"https://www.prizmatix.com/"},
+            { src: "./images/PrizmatixLogo-s.jpg", alt: "Prizmatix" ,link:"https://www.prizmatix.com/"},
             { src: "./images/THE-HUNTER-LOGO.svg", alt: "THE-HUNTER" ,link:"https://the-hunters.co.il/"},
             { src: "./images/atlasensebiomed.png", alt: "AtlasenseBiomed" ,link:"https://atlasensebiomed.com/"},
         ];

@@ -77,7 +77,7 @@
 }
 
 #menuList  li {
-    margin-left: 20px;
+    margin-inline-end: 20px;
 }
 
 #menuList  li a {
